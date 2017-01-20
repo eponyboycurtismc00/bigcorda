@@ -4,6 +4,6 @@ applications:
 memory: 512MB
 host: bigcorda
 disk_quota: 200MB
-path: target\.jar
+path: .jar
 buildpack: java_buildpack
 env: JBP_CONFIG_OPEN_JDK_JRE '{jre: { version: 1.8.0_+ }}'
